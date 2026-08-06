@@ -317,7 +317,7 @@ function Home() {
         <div className="container-x">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <SectionHead
-              eyebrow="Journal"
+              eyebrow="Blog"
               title="Guidance worth reading before you spend."
             />
             <Reveal delay={140}>

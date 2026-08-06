@@ -9,7 +9,7 @@ const nav = [
   { label: "Home", to: "/" },
   { label: "Services", to: "/services" },
   { label: "About", to: "/about" },
-  { label: "Journal", to: "/blog" },
+  { label: "Blog", to: "/blog" },
   { label: "Advertise", to: "/advertise" },
   { label: "Contact", to: "/contact" },
 ];

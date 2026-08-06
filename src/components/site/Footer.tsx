@@ -59,7 +59,7 @@ export function Footer() {
               {[
                 { label: "About Hyvoxa", to: "/about" },
                 { label: "All Services", to: "/services" },
-                { label: "Journal", to: "/blog" },
+                { label: "Blog", to: "/blog" },
                 { label: "Advertise with us", to: "/advertise" },
                 { label: "Contact", to: "/contact" },
               ].map((l) => (

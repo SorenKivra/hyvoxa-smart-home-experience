@@ -27,7 +27,7 @@ export const Route = createFileRoute("/disclaimer")({
         {
           heading: "1. General information only",
           paragraphs: [
-            "The content of this website, including journal articles, service descriptions and technical explanations, is provided for general information. It does not constitute professional advice for your particular property, electrical installation, insurance requirements or legal obligations.",
+            "The content of this website, including blog articles, service descriptions and technical explanations, is provided for general information. It does not constitute professional advice for your particular property, electrical installation, insurance requirements or legal obligations.",
             "You should obtain a survey and a written proposal before making purchasing or construction decisions based on anything published here.",
           ],
         },
@@ -55,7 +55,7 @@ export const Route = createFileRoute("/disclaimer")({
           heading: "5. Third-party products and links",
           paragraphs: [
             "Where we reference product categories, standards or third-party platforms, we do so descriptively. We do not accept responsibility for the content, availability, pricing or performance of third-party websites, services or products.",
-            "We do not publish paid placements or affiliate links, and manufacturers do not influence the editorial content of our journal.",
+            "We do not publish paid placements or affiliate links, and manufacturers do not influence the editorial content of our blog.",
           ],
         },
         {

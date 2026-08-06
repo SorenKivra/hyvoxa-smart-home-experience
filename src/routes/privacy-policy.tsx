@@ -50,7 +50,7 @@ export const Route = createFileRoute("/privacy-policy")({
             "To perform a contract with you: designing, supplying, installing, commissioning and supporting your system.",
             "To meet our legal obligations, including tax, accounting, electrical safety and consumer protection requirements.",
             "For our legitimate interests in operating and improving our business, including maintaining service records, protecting our systems from misuse and understanding how our website is used.",
-            "To send you occasional service updates or, where you have asked for them, articles from our journal. You can stop these at any time.",
+            "To send you occasional service updates or, where you have asked for them, articles from our blog. You can stop these at any time.",
           ],
         },
         {

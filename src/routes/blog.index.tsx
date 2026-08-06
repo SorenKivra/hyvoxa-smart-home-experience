@@ -4,7 +4,7 @@ import { PageHero, CtaBand } from "@/components/site/Sections";
 import { Reveal } from "@/components/site/Reveal";
 import { posts, formatDate } from "@/data/blog";
 
-const TITLE = "The Hyvoxa Journal | Smart Home Guides & Insight";
+const TITLE = "The Hyvoxa Blog | Smart Home Guides & Insight";
 const DESC =
   "Practical, vendor-neutral guides to home automation: costs, circadian lighting, security checklists, energy savings, cinema planning and shading.";
 
@@ -26,7 +26,7 @@ export const Route = createFileRoute("/blog/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Blog",
-          name: "The Hyvoxa Journal",
+          name: "The Hyvoxa Blog",
           description: DESC,
           blogPost: posts.map((p) => ({
             "@type": "BlogPosting",
@@ -47,7 +47,7 @@ function BlogIndex() {
   return (
     <>
       <PageHero
-        eyebrow="Journal"
+        eyebrow="Blog"
         title={
           <>
             Read this before
