@@ -7,9 +7,9 @@ import { StatCounter } from "@/components/site/StatCounter";
 import { services } from "@/data/services";
 import { posts, formatDate } from "@/data/blog";
 
-const TITLE = "Hyvoxa | Home Automation Design, Install & Support";
+const TITLE = "Smart Home Installation & Home Automation Company | Hyvoxa";
 const DESC =
-  "Hyvoxa designs and installs whole-home automation: smart lighting, security, climate, shading and cinema — unified on one reliable local system.";
+  "Hyvoxa is a home automation company that designs and installs smart home systems — lighting, security, climate, shading and home theater — unified on one reliable local system.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

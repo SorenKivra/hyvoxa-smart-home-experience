@@ -32,9 +32,9 @@ export const posts: Post[] = [
     title: "Is a Smart Home Actually Worth It in 2026? An Honest Cost Breakdown",
     excerpt:
       "We break down what home automation really costs, where the money goes, and which upgrades return value fastest — with no vendor spin.",
-    metaTitle: "Is a Smart Home Worth It in 2026? Real Costs & ROI | Hyvoxa",
+    metaTitle: "Home Automation Cost in 2026: Real Prices, ROI & Payback | Hyvoxa",
     metaDescription:
-      "An honest 2026 cost breakdown of home automation: what smart lighting, climate, security and integration cost, and which upgrades pay back fastest.",
+      "What does home automation cost in 2026? A transparent breakdown of smart home installation prices by tier, where the money goes, and which upgrades pay back fastest.",
     category: "Buying Guide",
     date: "2026-07-28",
     readTime: "9 min read",
@@ -73,7 +73,7 @@ export const posts: Post[] = [
     title: "Circadian Lighting: How Your Home's Light Is Shaping Your Sleep",
     excerpt:
       "The science behind tunable white light, and a practical schedule you can implement in any home to sleep deeper and wake sharper.",
-    metaTitle: "Circadian Smart Lighting & Better Sleep: A Practical Guide | Hyvoxa",
+    metaTitle: "Circadian Lighting & Sleep: Smart Lighting Guide (2026) | Hyvoxa",
     metaDescription:
       "How tunable white smart lighting supports your circadian rhythm, with a room-by-room colour temperature schedule you can apply in any home.",
     category: "Lighting",
@@ -109,7 +109,7 @@ export const posts: Post[] = [
     title: "The 12-Point Smart Home Security Checklist Most Installers Skip",
     excerpt:
       "Camera placement is the easy part. This is the network, privacy and process work that determines whether a system is genuinely secure.",
-    metaTitle: "Smart Home Security Checklist: 12 Points Installers Skip | Hyvoxa",
+    metaTitle: "Smart Home Security Checklist: 12 Steps Installers Skip | Hyvoxa",
     metaDescription:
       "A professional 12-point checklist for secure smart home installation, covering network segmentation, camera privacy, firmware policy and access auditing.",
     category: "Security",
@@ -147,7 +147,7 @@ export const posts: Post[] = [
     title: "Seven Automations That Cut Our Clients' Energy Bills the Most",
     excerpt:
       "Ranked by measured impact across real installations — the automation rules that consistently deliver the largest savings.",
-    metaTitle: "7 Home Automations That Cut Energy Bills Most | Hyvoxa",
+    metaTitle: "7 Home Automations That Cut Energy Bills the Most (2026) | Hyvoxa",
     metaDescription:
       "Seven measured home automation strategies that reduce energy bills: setback scheduling, solar shading, occupancy control, load shifting and more.",
     category: "Energy",
@@ -180,7 +180,7 @@ export const posts: Post[] = [
     title: "Planning a Home Cinema: The Decisions You Must Make Before Buying",
     excerpt:
       "Seating distance, acoustics, light control and budget order — the planning choices that determine whether your cinema room sings or disappoints.",
-    metaTitle: "Home Cinema Room Planning Guide | Hyvoxa Home Automation",
+    metaTitle: "Home Theater Room Planning Guide: Decisions to Make First | Hyvoxa",
     metaDescription:
       "A professional guide to planning a home cinema room: acoustics, seating distance, screen sizing, light control and how to order your budget correctly.",
     category: "Cinema",
@@ -214,7 +214,7 @@ export const posts: Post[] = [
     title: "Motorised Blinds: Battery or Hardwired, and Which Fabric to Choose",
     excerpt:
       "A clear, practical guide to specifying motorised shading — power options, openness factors and the automation rules that make them worth it.",
-    metaTitle: "Motorised Blinds Guide: Battery vs Hardwired & Fabrics | Hyvoxa",
+    metaTitle: "Motorized Blinds Guide: Battery vs Hardwired & Fabric Choice | Hyvoxa",
     metaDescription:
       "How to specify motorised blinds: battery versus hardwired motors, fabric openness factors by room, and the sun-tracking rules that deliver real value.",
     category: "Shading",
