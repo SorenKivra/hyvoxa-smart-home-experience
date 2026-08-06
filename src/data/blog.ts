@@ -22,6 +22,10 @@ export type Post = {
   date: string;
   readTime: string;
   author: string;
+  authorRole: string;
+  authorBio: string;
+  reviewedBy: string;
+  updated: string;
   image: string;
   body: Block[];
 };
@@ -32,13 +36,17 @@ export const posts: Post[] = [
     title: "Is a Smart Home Actually Worth It in 2026? An Honest Cost Breakdown",
     excerpt:
       "We break down what home automation really costs, where the money goes, and which upgrades return value fastest — with no vendor spin.",
-    metaTitle: "Is a Smart Home Worth It in 2026? Real Costs & ROI | Hyvoxa",
+    metaTitle: "Home Automation Cost in 2026: Real Prices, ROI & Payback | Hyvoxa",
     metaDescription:
-      "An honest 2026 cost breakdown of home automation: what smart lighting, climate, security and integration cost, and which upgrades pay back fastest.",
+      "What does home automation cost in 2026? A transparent breakdown of smart home installation prices by tier, where the money goes, and which upgrades pay back fastest.",
     category: "Buying Guide",
     date: "2026-07-28",
     readTime: "9 min read",
-    author: "Hyvoxa Design Team",
+    author: "Elena Marsh",
+    authorRole: "Lead Systems Designer, Hyvoxa",
+    authorBio: "Elena has specified and commissioned home automation systems for 14 years, from single-room retrofits to 40-zone new builds. She writes the lighting and control standards Hyvoxa installs to.",
+    reviewedBy: "Daniel Okonjo, Head of Engineering",
+    updated: "2026-08-02",
     image: blog3,
     body: [
       { type: "p", text: "Every week someone asks us the same question in a slightly different way: is this worth the money? It deserves a straight answer rather than a brochure, so here is how home automation spending actually behaves, based on the projects we deliver." },
@@ -73,13 +81,17 @@ export const posts: Post[] = [
     title: "Circadian Lighting: How Your Home's Light Is Shaping Your Sleep",
     excerpt:
       "The science behind tunable white light, and a practical schedule you can implement in any home to sleep deeper and wake sharper.",
-    metaTitle: "Circadian Smart Lighting & Better Sleep: A Practical Guide | Hyvoxa",
+    metaTitle: "Circadian Lighting & Sleep: Smart Lighting Guide (2026) | Hyvoxa",
     metaDescription:
       "How tunable white smart lighting supports your circadian rhythm, with a room-by-room colour temperature schedule you can apply in any home.",
     category: "Lighting",
     date: "2026-07-14",
     readTime: "7 min read",
-    author: "Hyvoxa Design Team",
+    author: "Daniel Okonjo",
+    authorRole: "Head of Engineering, Hyvoxa",
+    authorBio: "Daniel leads Hyvoxa's install and commissioning teams. He is a qualified electrician and network engineer, and has personally commissioned more than 300 residential systems.",
+    reviewedBy: "Elena Marsh, Lead Systems Designer",
+    updated: "2026-07-30",
     image: lighting,
     body: [
       { type: "p", text: "Your body reads light as a clock. Specialised cells in the retina, sensitive mainly to blue wavelengths, tell the brain whether it is day or night — and modern homes send that clock the wrong signal almost every evening." },
@@ -109,13 +121,17 @@ export const posts: Post[] = [
     title: "The 12-Point Smart Home Security Checklist Most Installers Skip",
     excerpt:
       "Camera placement is the easy part. This is the network, privacy and process work that determines whether a system is genuinely secure.",
-    metaTitle: "Smart Home Security Checklist: 12 Points Installers Skip | Hyvoxa",
+    metaTitle: "Smart Home Security Checklist: 12 Steps Installers Skip | Hyvoxa",
     metaDescription:
       "A professional 12-point checklist for secure smart home installation, covering network segmentation, camera privacy, firmware policy and access auditing.",
     category: "Security",
     date: "2026-06-30",
     readTime: "8 min read",
-    author: "Hyvoxa Design Team",
+    author: "Elena Marsh",
+    authorRole: "Lead Systems Designer, Hyvoxa",
+    authorBio: "Elena has specified and commissioned home automation systems for 14 years, from single-room retrofits to 40-zone new builds. She writes the lighting and control standards Hyvoxa installs to.",
+    reviewedBy: "Daniel Okonjo, Head of Engineering",
+    updated: "2026-08-04",
     image: blog1,
     body: [
       { type: "p", text: "A connected home expands your attack surface. Done properly, it is still far safer than an unmonitored house — but only if the installation follows a real security process rather than a product manual." },
@@ -147,13 +163,17 @@ export const posts: Post[] = [
     title: "Seven Automations That Cut Our Clients' Energy Bills the Most",
     excerpt:
       "Ranked by measured impact across real installations — the automation rules that consistently deliver the largest savings.",
-    metaTitle: "7 Home Automations That Cut Energy Bills Most | Hyvoxa",
+    metaTitle: "7 Home Automations That Cut Energy Bills the Most (2026) | Hyvoxa",
     metaDescription:
       "Seven measured home automation strategies that reduce energy bills: setback scheduling, solar shading, occupancy control, load shifting and more.",
     category: "Energy",
     date: "2026-06-11",
     readTime: "6 min read",
-    author: "Hyvoxa Design Team",
+    author: "Daniel Okonjo",
+    authorRole: "Head of Engineering, Hyvoxa",
+    authorBio: "Daniel leads Hyvoxa's install and commissioning teams. He is a qualified electrician and network engineer, and has personally commissioned more than 300 residential systems.",
+    reviewedBy: "Elena Marsh, Lead Systems Designer",
+    updated: "2026-07-29",
     image: blog2,
     body: [
       { type: "p", text: "Energy savings from automation are real, but they are unevenly distributed. Some rules save a fortune, some save pennies, and a few popular ones save nothing at all. Here is what our monitoring data consistently shows." },
@@ -180,13 +200,17 @@ export const posts: Post[] = [
     title: "Planning a Home Cinema: The Decisions You Must Make Before Buying",
     excerpt:
       "Seating distance, acoustics, light control and budget order — the planning choices that determine whether your cinema room sings or disappoints.",
-    metaTitle: "Home Cinema Room Planning Guide | Hyvoxa Home Automation",
+    metaTitle: "Home Theater Room Planning Guide: Decisions to Make First | Hyvoxa",
     metaDescription:
       "A professional guide to planning a home cinema room: acoustics, seating distance, screen sizing, light control and how to order your budget correctly.",
     category: "Cinema",
     date: "2026-05-22",
     readTime: "8 min read",
-    author: "Hyvoxa Design Team",
+    author: "Elena Marsh",
+    authorRole: "Lead Systems Designer, Hyvoxa",
+    authorBio: "Elena has specified and commissioned home automation systems for 14 years, from single-room retrofits to 40-zone new builds. She writes the lighting and control standards Hyvoxa installs to.",
+    reviewedBy: "Daniel Okonjo, Head of Engineering",
+    updated: "2026-08-01",
     image: theater,
     body: [
       { type: "p", text: "The most common cinema-room regret is not the wrong projector. It is a beautifully specified system installed in a room that was never going to support it." },
@@ -214,13 +238,17 @@ export const posts: Post[] = [
     title: "Motorised Blinds: Battery or Hardwired, and Which Fabric to Choose",
     excerpt:
       "A clear, practical guide to specifying motorised shading — power options, openness factors and the automation rules that make them worth it.",
-    metaTitle: "Motorised Blinds Guide: Battery vs Hardwired & Fabrics | Hyvoxa",
+    metaTitle: "Motorized Blinds Guide: Battery vs Hardwired & Fabric Choice | Hyvoxa",
     metaDescription:
       "How to specify motorised blinds: battery versus hardwired motors, fabric openness factors by room, and the sun-tracking rules that deliver real value.",
     category: "Shading",
     date: "2026-05-05",
     readTime: "6 min read",
-    author: "Hyvoxa Design Team",
+    author: "Daniel Okonjo",
+    authorRole: "Head of Engineering, Hyvoxa",
+    authorBio: "Daniel leads Hyvoxa's install and commissioning teams. He is a qualified electrician and network engineer, and has personally commissioned more than 300 residential systems.",
+    reviewedBy: "Elena Marsh, Lead Systems Designer",
+    updated: "2026-07-27",
     image: shades,
     body: [
       { type: "p", text: "Motorised shading is often the first automation clients fall in love with, because the benefit is visible on day one. Specifying it well comes down to three decisions." },

@@ -4,9 +4,9 @@ import { PageHero, CtaBand, SectionHead } from "@/components/site/Sections";
 import { Reveal } from "@/components/site/Reveal";
 import { services } from "@/data/services";
 
-const TITLE = "Smart Home Automation Services | Hyvoxa";
+const TITLE = "Smart Home Automation Services & Installation | Hyvoxa";
 const DESC =
-  "Explore Hyvoxa's home automation services: smart lighting, security and access, climate and energy, cinema and audio, motorised shading and whole-home integration.";
+  "Six smart home automation services: smart lighting installation, home security systems, smart thermostats and energy, home theater and audio, motorized shades, and whole-home integration.";
 
 export const Route = createFileRoute("/services/")({
   head: () => ({

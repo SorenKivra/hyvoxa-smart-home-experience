@@ -4,7 +4,7 @@ import { PageHero, CtaBand, SectionHead } from "@/components/site/Sections";
 import { Reveal, Parallax } from "@/components/site/Reveal";
 import { StatCounter } from "@/components/site/StatCounter";
 
-const TITLE = "About Hyvoxa | Home Automation Engineers & Designers";
+const TITLE = "About Hyvoxa | Home Automation Company & Smart Home Engineers";
 const DESC =
   "Hyvoxa is a home automation design and installation practice: measured design, local-first systems, directly employed engineers and lifetime support.";
 

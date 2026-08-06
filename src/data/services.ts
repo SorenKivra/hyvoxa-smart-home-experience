@@ -27,9 +27,9 @@ export const services: Service[] = [
     short: "Layered, tunable light that follows the rhythm of your day.",
     tagline: "Light that thinks",
     image: lighting,
-    metaTitle: "Smart Lighting Design & Installation | Hyvoxa Home Automation",
+    metaTitle: "Smart Lighting Installation & Design Services | Hyvoxa",
     metaDescription:
-      "Circadian smart lighting design, dimming and scene control installed by Hyvoxa. Cut energy use, remove clutter and light every room beautifully.",
+      "Smart lighting installation and lighting control system design: circadian tuning, flicker-free dimming and keypad scenes. Cut lighting energy use by ~38%.",
     intro: [
       "Lighting is the fastest way to feel the difference automation makes. Hyvoxa designs layered lighting schemes that combine architectural, task and accent light, then puts them on a control system that a guest can use without instruction.",
       "We start with a photometric plan of your home, choose fixtures with a matched colour rendering index, and program scenes that shift in warmth from a bright 4000K morning to a 2200K candle-warm evening. The result is a home that feels calmer, photographs better and quietly uses far less electricity.",
@@ -75,9 +75,9 @@ export const services: Service[] = [
     short: "Cameras, locks and sensors that work as one calm, verified system.",
     tagline: "Quiet protection",
     image: security,
-    metaTitle: "Smart Home Security & Access Control Installation | Hyvoxa",
+    metaTitle: "Home Security System Installation & Access Control | Hyvoxa",
     metaDescription:
-      "Professional smart security systems: verified cameras, smart locks, intrusion sensors and access control, designed and installed by Hyvoxa.",
+      "Professional home security system installation: AI-verified cameras, smart locks, intrusion sensors and access control, recorded locally and installed by our own engineers.",
     intro: [
       "Most security systems fail for one reason: too many false alerts. Hyvoxa designs verified security, where a notification only reaches your phone once two independent signals agree that something genuinely happened.",
       "We integrate cameras, door and window contacts, glass-break detectors, smart locks and driveway sensors into one interface with one app, one set of rules and one place to look. You stop managing devices and start trusting the system.",
@@ -123,9 +123,9 @@ export const services: Service[] = [
     short: "Room-by-room comfort that pays for itself in fuel savings.",
     tagline: "Comfort, measured",
     image: climate,
-    metaTitle: "Smart Climate Control & Home Energy Management | Hyvoxa",
+    metaTitle: "Smart Thermostat Installation & Home Energy Management | Hyvoxa",
     metaDescription:
-      "Zoned smart heating, cooling and energy monitoring from Hyvoxa. Balance every room, cut bills and see exactly where your energy goes.",
+      "Smart thermostat installation, true HVAC zoning and circuit-level energy monitoring. Balance every room, cut heating and cooling bills, and see where energy goes.",
     intro: [
       "One thermostat for an entire house is an average of everyone's discomfort. Hyvoxa installs zoned climate control that treats each room as its own environment, with sensors that measure temperature, humidity and air quality where you actually sit.",
       "Combined with live energy monitoring at the circuit level, you finally get an answer to the question every homeowner asks: what is actually costing me money? Most clients recover the cost of their climate work within three to five heating seasons.",
@@ -171,9 +171,9 @@ export const services: Service[] = [
     short: "Reference-grade sound and picture, engineered into the architecture.",
     tagline: "Engineered emotion",
     image: theater,
-    metaTitle: "Home Cinema Design & Multi-Room Audio Installation | Hyvoxa",
+    metaTitle: "Home Theater Installation & Whole-Home Audio | Hyvoxa",
     metaDescription:
-      "Acoustically engineered home cinema rooms and invisible multi-room audio from Hyvoxa. Calibrated sound, hidden hardware, one-button control.",
+      "Home theater installation and whole-home audio: acoustically engineered cinema rooms, calibrated sound, invisible speakers and one-button control.",
     intro: [
       "A great cinema room is an acoustics project that happens to contain electronics. Hyvoxa models the room first — its modes, reflections and reverberation time — then selects the loudspeakers and projector that suit it, rather than the other way around.",
       "Beyond the cinema, multi-room audio puts music in every space through architectural speakers that disappear into the ceiling, controlled with one tap and calibrated so the kitchen sounds as good as the listening room.",
@@ -219,9 +219,9 @@ export const services: Service[] = [
     short: "Silent shades that manage heat, glare and privacy on their own.",
     tagline: "Daylight, directed",
     image: shades,
-    metaTitle: "Motorised Blinds & Smart Shading Installation | Hyvoxa",
+    metaTitle: "Motorized Shades & Blinds Installation | Smart Shading | Hyvoxa",
     metaDescription:
-      "Silent motorised blinds, drapes and solar shading installed by Hyvoxa. Automatic glare and heat control that protects interiors and cuts cooling costs.",
+      "Motorized shades, blinds and drapes installed and automated: silent motors, sun-tracking glare control, lower cooling costs and protected interiors.",
     intro: [
       "Shading is the most underrated automation in a home. It controls solar heat gain before your cooling system has to fight it, protects timber and textiles from fading, and gives you privacy on a schedule rather than a chore.",
       "Hyvoxa specifies whisper-quiet lithium or hardwired motors, fabrics chosen for openness factor and colour, and tracking that follows the sun's true position at your address throughout the year.",
@@ -267,9 +267,9 @@ export const services: Service[] = [
     short: "One infrastructure, one interface, one company responsible for it.",
     tagline: "The spine of the house",
     image: integration,
-    metaTitle: "Whole-Home Smart Automation & Network Integration | Hyvoxa",
+    metaTitle: "Smart Home Integration & Whole-Home Automation | Hyvoxa",
     metaDescription:
-      "Hyvoxa unifies lighting, climate, security, shading and entertainment on one reliable local network with structured wiring and a single control interface.",
+      "Smart home integration that unifies lighting, climate, security, shading and entertainment on one local-first network, with structured wiring and a single interface.",
     intro: [
       "A smart home built one gadget at a time becomes a maintenance burden. Whole-home integration is the opposite discipline: a single designed infrastructure — structured cabling, enterprise-grade networking and a local processor — that every subsystem plugs into.",
       "This is the work that decides whether your home still functions beautifully in year seven. Hyvoxa builds it to a documented standard, labels every cable, and hands you drawings you could give to any competent integrator in the future.",

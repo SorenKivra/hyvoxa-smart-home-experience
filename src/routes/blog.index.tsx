@@ -4,9 +4,9 @@ import { PageHero, CtaBand } from "@/components/site/Sections";
 import { Reveal } from "@/components/site/Reveal";
 import { posts, formatDate } from "@/data/blog";
 
-const TITLE = "The Hyvoxa Blog | Smart Home Guides & Insight";
+const TITLE = "Smart Home Blog: Home Automation Guides & Costs | Hyvoxa";
 const DESC =
-  "Practical, vendor-neutral guides to home automation: costs, circadian lighting, security checklists, energy savings, cinema planning and shading.";
+  "Vendor-neutral smart home guides written by working installers: home automation costs, circadian lighting, security checklists, energy savings, home theater and shading.";
 
 export const Route = createFileRoute("/blog/")({
   head: () => ({

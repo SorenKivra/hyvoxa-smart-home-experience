@@ -4,7 +4,7 @@ import { PageHero } from "@/components/site/Sections";
 import { Reveal } from "@/components/site/Reveal";
 import { services } from "@/data/services";
 
-const TITLE = "Contact Hyvoxa | Home Automation Consultations";
+const TITLE = "Contact Hyvoxa | Smart Home Installation Consultations";
 const DESC =
   "Contact Hyvoxa about home automation design, installation or support. Email hyvoxa@gmail.com and receive a considered reply within one working day.";
 

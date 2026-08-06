@@ -42,8 +42,15 @@ export const Route = createFileRoute("/services/$slug")({
             "@context": "https://schema.org",
             "@type": "Service",
             name: s.name,
+            serviceType: s.name,
             description: s.metaDescription,
-            provider: { "@type": "Organization", name: "Hyvoxa", email: "hyvoxa@gmail.com" },
+            areaServed: "Nationwide",
+            provider: {
+              "@type": "HomeAndConstructionBusiness",
+              name: "Hyvoxa",
+              email: "hyvoxa@gmail.com",
+              url: "/",
+            },
           }),
         },
         {
@@ -56,6 +63,23 @@ export const Route = createFileRoute("/services/$slug")({
               name: f.q,
               acceptedAnswer: { "@type": "Answer", text: f.a },
             })),
+          }),
+        },
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "/" },
+              { "@type": "ListItem", position: 2, name: "Services", item: "/services" },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: s.name,
+                item: `/services/${params.slug}`,
+              },
+            ],
           }),
         },
       ],

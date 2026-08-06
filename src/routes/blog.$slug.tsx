@@ -37,9 +37,36 @@ export const Route = createFileRoute("/blog/$slug")({
             "@type": "BlogPosting",
             headline: p.title,
             description: p.metaDescription,
+            articleSection: p.category,
+            inLanguage: "en",
             datePublished: p.date,
-            author: { "@type": "Organization", name: "Hyvoxa" },
-            publisher: { "@type": "Organization", name: "Hyvoxa" },
+            dateModified: p.updated,
+            mainEntityOfPage: { "@type": "WebPage", "@id": `/blog/${params.slug}` },
+            author: {
+              "@type": "Person",
+              name: p.author,
+              jobTitle: p.authorRole,
+              description: p.authorBio,
+              worksFor: { "@type": "Organization", name: "Hyvoxa" },
+            },
+            reviewedBy: { "@type": "Person", name: p.reviewedBy },
+            publisher: {
+              "@type": "Organization",
+              name: "Hyvoxa",
+              email: "hyvoxa@gmail.com",
+            },
+          }),
+        },
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "/" },
+              { "@type": "ListItem", position: 2, name: "Blog", item: "/blog" },
+              { "@type": "ListItem", position: 3, name: p.title, item: `/blog/${params.slug}` },
+            ],
           }),
         },
       ],
@@ -79,7 +106,8 @@ function BlogPost() {
           </Reveal>
           <Reveal delay={70}>
             <p className="eyebrow mt-8">
-              {post.category} · {post.readTime} · {formatDate(post.date)}
+              {post.category} · {post.readTime} · Published {formatDate(post.date)} · Updated{" "}
+              {formatDate(post.updated)}
             </p>
           </Reveal>
           <Reveal delay={140}>
@@ -113,9 +141,15 @@ function BlogPost() {
             <Reveal>
               <p className="eyebrow">Written by</p>
               <p className="mt-3 font-display text-lg">{post.author}</p>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                Hyvoxa engineers design, install and maintain home automation systems for
-                private residences.
+              <p className="mt-1 text-sm font-medium text-foreground/70">{post.authorRole}</p>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{post.authorBio}</p>
+              <p className="mt-4 border-t border-border pt-4 text-sm text-muted-foreground">
+                <span className="font-medium text-foreground/80">Reviewed by</span>{" "}
+                {post.reviewedBy}
+              </p>
+              <p className="mt-2 text-sm text-muted-foreground">
+                Last updated {formatDate(post.updated)}. Written from work Hyvoxa has delivered on
+                real homes, not manufacturer marketing.
               </p>
               <a
                 href="mailto:hyvoxa@gmail.com"
