@@ -23,9 +23,50 @@ export const Route = createFileRoute("/")({
       { name: "twitter:description", content: DESC },
     ],
     links: [{ rel: "canonical", href: "/" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        }),
+      },
+    ],
   }),
   component: Home,
 });
+
+const faqs = [
+  {
+    q: "What is smart home automation?",
+    a: "Smart home automation connects lighting, heating and cooling, security, shading, audio and video onto one control system so they respond to schedules, sensors and single-press scenes instead of individual apps. A properly designed system runs its logic locally, so it keeps working when the internet does not.",
+  },
+  {
+    q: "How much does home automation cost?",
+    a: "Most projects fall into four tiers. A single-room lighting and shading upgrade typically runs into the low thousands, a comfort-and-safety core across a family home into the mid five figures, and a fully integrated whole-home system considerably more. Roughly 45% of a budget is hardware, 30% labour, 20% design and programming, and the balance commissioning and documentation.",
+  },
+  {
+    q: "Can you retrofit a smart home into an existing house?",
+    a: "Yes. Around half of our work is retrofit. We survey the existing circuits, ceiling structure and network, then choose wireless or hybrid control where cabling would mean destroying finished plaster, and hardwire wherever access allows.",
+  },
+  {
+    q: "How long does a smart home installation take?",
+    a: "A single-room upgrade is usually one to three days on site. A whole-home system is measured in weeks and is scheduled around first fix, second fix and commissioning, with design and drawings completed before any product is ordered.",
+  },
+  {
+    q: "What happens if my internet goes down?",
+    a: "Nothing important. Hyvoxa systems are local-first: scenes, schedules, keypads, locks and alarms run on an on-site controller. Remote access and notifications pause until connectivity returns, but the house behaves normally.",
+  },
+  {
+    q: "Do you support the system after installation?",
+    a: "Yes. Every handover includes documentation, household training and a support agreement. Firmware, integrations and scene changes are handled by the same engineers who commissioned the system.",
+  },
+];
 
 const marquee = [
   "Smart Lighting",
@@ -305,6 +346,43 @@ function Home() {
                 <div className="mt-8 border-t border-border pt-5">
                   <p className="text-sm font-semibold">{t.name}</p>
                   <p className="mt-1 text-xs text-muted-foreground">{t.detail}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-28">
+        <div className="container-x grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:gap-24">
+          <div className="lg:sticky lg:top-28 lg:self-start">
+            <SectionHead
+              eyebrow="Questions"
+              title="What homeowners ask us first."
+            />
+            <Reveal delay={140}>
+              <p className="mt-6 max-w-md leading-relaxed text-muted-foreground">
+                Straight answers on cost, retrofit, timelines and reliability — the four things
+                that decide whether a smart home project is worth starting. For deeper detail,
+                read the{" "}
+                <Link to="/blog" className="link-underline text-primary">
+                  blog
+                </Link>{" "}
+                or email{" "}
+                <a href="mailto:hyvoxa@gmail.com" className="link-underline text-primary">
+                  hyvoxa@gmail.com
+                </a>
+                .
+              </p>
+            </Reveal>
+          </div>
+          <div>
+            {faqs.map((f, i) => (
+              <Reveal key={f.q} delay={i * 60}>
+                <div className="border-t border-border py-7 first:border-t-0 first:pt-0">
+                  <h3 className="text-lg leading-snug">{f.q}</h3>
+                  <p className="mt-3 max-w-2xl leading-relaxed text-muted-foreground">{f.a}</p>
                 </div>
               </Reveal>
             ))}
