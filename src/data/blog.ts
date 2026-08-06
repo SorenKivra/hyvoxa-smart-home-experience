@@ -22,6 +22,10 @@ export type Post = {
   date: string;
   readTime: string;
   author: string;
+  authorRole: string;
+  authorBio: string;
+  reviewedBy: string;
+  updated: string;
   image: string;
   body: Block[];
 };
@@ -38,7 +42,11 @@ export const posts: Post[] = [
     category: "Buying Guide",
     date: "2026-07-28",
     readTime: "9 min read",
-    author: "Hyvoxa Design Team",
+    author: "Elena Marsh",
+    authorRole: "Lead Systems Designer, Hyvoxa",
+    authorBio: "Elena has specified and commissioned home automation systems for 14 years, from single-room retrofits to 40-zone new builds. She writes the lighting and control standards Hyvoxa installs to.",
+    reviewedBy: "Daniel Okonjo, Head of Engineering",
+    updated: "2026-08-02",
     image: blog3,
     body: [
       { type: "p", text: "Every week someone asks us the same question in a slightly different way: is this worth the money? It deserves a straight answer rather than a brochure, so here is how home automation spending actually behaves, based on the projects we deliver." },
@@ -79,7 +87,11 @@ export const posts: Post[] = [
     category: "Lighting",
     date: "2026-07-14",
     readTime: "7 min read",
-    author: "Hyvoxa Design Team",
+    author: "Daniel Okonjo",
+    authorRole: "Head of Engineering, Hyvoxa",
+    authorBio: "Daniel leads Hyvoxa's install and commissioning teams. He is a qualified electrician and network engineer, and has personally commissioned more than 300 residential systems.",
+    reviewedBy: "Elena Marsh, Lead Systems Designer",
+    updated: "2026-07-30",
     image: lighting,
     body: [
       { type: "p", text: "Your body reads light as a clock. Specialised cells in the retina, sensitive mainly to blue wavelengths, tell the brain whether it is day or night — and modern homes send that clock the wrong signal almost every evening." },
@@ -115,7 +127,11 @@ export const posts: Post[] = [
     category: "Security",
     date: "2026-06-30",
     readTime: "8 min read",
-    author: "Hyvoxa Design Team",
+    author: "Elena Marsh",
+    authorRole: "Lead Systems Designer, Hyvoxa",
+    authorBio: "Elena has specified and commissioned home automation systems for 14 years, from single-room retrofits to 40-zone new builds. She writes the lighting and control standards Hyvoxa installs to.",
+    reviewedBy: "Daniel Okonjo, Head of Engineering",
+    updated: "2026-08-04",
     image: blog1,
     body: [
       { type: "p", text: "A connected home expands your attack surface. Done properly, it is still far safer than an unmonitored house — but only if the installation follows a real security process rather than a product manual." },
@@ -153,7 +169,11 @@ export const posts: Post[] = [
     category: "Energy",
     date: "2026-06-11",
     readTime: "6 min read",
-    author: "Hyvoxa Design Team",
+    author: "Daniel Okonjo",
+    authorRole: "Head of Engineering, Hyvoxa",
+    authorBio: "Daniel leads Hyvoxa's install and commissioning teams. He is a qualified electrician and network engineer, and has personally commissioned more than 300 residential systems.",
+    reviewedBy: "Elena Marsh, Lead Systems Designer",
+    updated: "2026-07-29",
     image: blog2,
     body: [
       { type: "p", text: "Energy savings from automation are real, but they are unevenly distributed. Some rules save a fortune, some save pennies, and a few popular ones save nothing at all. Here is what our monitoring data consistently shows." },
@@ -186,7 +206,11 @@ export const posts: Post[] = [
     category: "Cinema",
     date: "2026-05-22",
     readTime: "8 min read",
-    author: "Hyvoxa Design Team",
+    author: "Elena Marsh",
+    authorRole: "Lead Systems Designer, Hyvoxa",
+    authorBio: "Elena has specified and commissioned home automation systems for 14 years, from single-room retrofits to 40-zone new builds. She writes the lighting and control standards Hyvoxa installs to.",
+    reviewedBy: "Daniel Okonjo, Head of Engineering",
+    updated: "2026-08-01",
     image: theater,
     body: [
       { type: "p", text: "The most common cinema-room regret is not the wrong projector. It is a beautifully specified system installed in a room that was never going to support it." },
@@ -220,7 +244,11 @@ export const posts: Post[] = [
     category: "Shading",
     date: "2026-05-05",
     readTime: "6 min read",
-    author: "Hyvoxa Design Team",
+    author: "Daniel Okonjo",
+    authorRole: "Head of Engineering, Hyvoxa",
+    authorBio: "Daniel leads Hyvoxa's install and commissioning teams. He is a qualified electrician and network engineer, and has personally commissioned more than 300 residential systems.",
+    reviewedBy: "Elena Marsh, Lead Systems Designer",
+    updated: "2026-07-27",
     image: shades,
     body: [
       { type: "p", text: "Motorised shading is often the first automation clients fall in love with, because the benefit is visible on day one. Specifying it well comes down to three decisions." },
