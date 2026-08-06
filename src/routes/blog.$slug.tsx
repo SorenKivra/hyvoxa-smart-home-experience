@@ -53,9 +53,9 @@ function PostMissing() {
   return (
     <div className="container-x flex min-h-[70svh] flex-col justify-center py-32">
       <h1 className="text-4xl">That article isn't here</h1>
-      <p className="mt-4 text-muted-foreground">It may have moved. The journal index has everything.</p>
+      <p className="mt-4 text-muted-foreground">It may have moved. The blog index has everything.</p>
       <Link to="/blog" className="mt-8 inline-flex items-center gap-2 text-primary">
-        <ArrowLeft className="size-4" /> Back to the journal
+        <ArrowLeft className="size-4" /> Back to the blog
       </Link>
     </div>
   );
@@ -74,7 +74,7 @@ function BlogPost() {
               to="/blog"
               className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
-              <ArrowLeft className="size-4" /> Journal
+              <ArrowLeft className="size-4" /> Blog
             </Link>
           </Reveal>
           <Reveal delay={70}>

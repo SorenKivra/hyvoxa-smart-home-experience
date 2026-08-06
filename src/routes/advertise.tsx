@@ -110,7 +110,7 @@ const steps = [
   },
   {
     title: "Hear back within 2 working days",
-    body: "A real editor reads it. If an idea fits the journal you get a go-ahead with the angle, word count and deadline agreed up front. If it does not fit, you get a reason rather than silence.",
+    body: "A real editor reads it. If an idea fits the blog you get a go-ahead with the angle, word count and deadline agreed up front. If it does not fit, you get a reason rather than silence.",
   },
   {
     title: "Submit the draft",
@@ -141,7 +141,7 @@ function Advertise() {
             people who are already renovating<span className="text-gradient-tea">.</span>
           </>
         }
-        intro="The Hyvoxa journal is read by homeowners mid-project, designers specifying systems and installers comparing approaches. If you have something genuinely useful to say to that audience, there is a place for it here — email your pitch and it will be read by an editor, not a queue."
+        intro="The Hyvoxa blog is read by homeowners mid-project, designers specifying systems and installers comparing approaches. If you have something genuinely useful to say to that audience, there is a place for it here — email your pitch and it will be read by an editor, not a queue."
       >
         <div className="mt-10 flex flex-wrap items-center gap-3">
           <a
